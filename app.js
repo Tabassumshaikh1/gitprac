@@ -14,7 +14,8 @@ const app=express()
 app.get("/",(req,res)=>{
     console.log("name is ", req.params.age);
     res.send("This is homw page")
-    console.log('abbbcc')
+    console.log('first')
+
 
 })
 // app.get("/contact",(req,res)=>{
